@@ -50,7 +50,7 @@ const TREE_DATA: ExampleFlatNode[] = [
       expandable:false,
       level:1,
   },
-  {
+  { 
       name: "Detalle",
       icon: "important_devices",
       routerLink: "/admin/asignar",
@@ -119,9 +119,9 @@ export class MenuComponent implements OnInit{
         if(rol==="1")
           return "Administrador";
         if(rol==="2")
-          return "Usuario";
+          return "Ferreteria";
         if(rol==="3")
-          return "Staff";
+          return "Barraca";
       } 
       catch (error) {    
       }

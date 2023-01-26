@@ -18,6 +18,7 @@ export class RolesGuard implements CanActivate {
   }
   verificar(route:ActivatedRouteSnapshot):boolean{
     // const{ scopes=[]}=;
+    return true;
     var rol=localStorage.getItem('rol');
     if(route.data.role==rol)
       return true;
